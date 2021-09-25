@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Educurve Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<div class="header">
+		<h2>Educurve Quiz
+
+	<ul class="HorizontalBar">
+		<li>Home</li>
+		<!-- <li>Settings</li>
+		<li class="CarrersMenu">Carrers
+		<div class="submenu">
+
+		<ul class="ScrollDown">
+
+		<li>Freshers</li>
+		<li>Experience</li>
+		<li>Intern</li>
+
+		</ul>
+		</div></li> -->
+		<li>About us</li>
+	</ul>
+</div>
+
+<div class="quiz-block">
+<form method="post"  id="form1"  action="answer.php">
+<?php 
+  $i=1;
+  foreach($qus->qus as $qust) {?>
+ <div class="ques-block">
+		<h3>What does HTML stand for?</h3>
+		<div class="ans-block">
+		<div class="ans-wrap">
+		 Hyperlinks and Text Markup Language
+		</div>
+		<div class="ans-wrap">
+			 Home Tool Markup Language
+		</div>
+		<div class="ans-wrap">
+			 Hyper Text Markup Language
+		</div>
+	</div>
+ </div>
+  
+ </div>
+
+ <div class="submit-block">
+	<div class="submit btn">
+		Submit
+	</div>
+	<div class="retake btn">
+		Retest
+	</div>
+</div>
+	
+</div>
+ 
+
+<div class="footer">
+	<h3>Copy rights reserved</h3>
+</div>
+
+</body>
+</html>
